@@ -1,0 +1,138 @@
+>
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Bootstrap grid</title>
+  </head>
+  <body>
+    <h1 class="text-white bg-dark text-center p-2">Bootstrap Grid</h1>
+
+    <div class="container bg-light mt-5">
+        <div class="row bg-dark">
+            <div class="col-6 text-white">Tama-chan</div>
+        </div>
+        <!-- Los break points en Grid nos permite hacer responsivo el diseño en función del tamaño de la pantalla, ya vienen algunos existentes-->
+
+        <div class="row mt-3 mb-3">
+            <!-- Aqui van las descripciones e imagenes -->
+            <!-- Cuando ponemos col-numero le estamos especificando un tamaño fijo aproximado -->
+          <div class="col-md-8 border border-dark bg-light"> <!-- Col tomará espacio como considere necesario -->
+                <!-- 1 -->
+                <div class="row">
+                    <div class="card m-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p>
+                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius modi veritatis earum itaque dolorem adipisci ea facere ab aperiam totam accusantium architecto, eum at voluptatum quaerat voluptatem sit recusandae?
+                          </p>
+                        </div>
+                      </div>
+                </div>
+                <!-- 2 -->
+                <div class="row">
+                    <div class="card m-3" >
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius modi veritatis earum itaque dolorem adipisci ea facere ab aperiam totam accusantium architecto, eum at voluptatum quaerat voluptatem sit recusandae?
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <!-- 3 -->
+                <div class="row">
+                    <div class="card m-3" >
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius modi veritatis earum itaque dolorem adipisci ea facere ab aperiam totam accusantium architecto, eum at voluptatum quaerat voluptatem sit recusandae?
+                        </p>
+                        </div>
+                      </div>
+                </div>
+          </div>
+
+          <!-- El md nos dice que mientras sea mayor a 768 nos respeta las columnas a un lado, pero cuando es menor lo pasa a la parte de abajo -->
+          <!-- Aqui van las imagenes -->
+          <div class="col-md-4 border bg-secondary"> <!-- Si ponemos varios cool sifnicia que  -->
+                <!-- 1 -->
+                <div class="row m-1"> 
+                    <div class="card" >
+                        <img src="img/Luffy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="row m-1"> 
+                    <div class="card" >
+                        <img src="img/zoro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="row m-1"> 
+                    <div class="card" >
+                        <img src="img/sanji.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              
+                          </p>
+                        </div>
+                    </div>
+                </div>
+
+          </div>
+        </div>
+      
+        <!-- Seccion 3 -->
+        <div class="row">
+            <!-- 1 -->
+            <div class="col-md col-sm-6">
+                <img src="img/chopper.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <!-- 2 -->
+            <div class="col-md col-sm-6">
+                <img src="img/op.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <!-- 3 -->
+            <div class="col-md col-sm-6">
+                <img src="img/chopper.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <!-- 4 -->
+            <div class="col-md col-sm-6">
+                <img src="img/op.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <!-- 5 -->
+            <div class="col-md col-sm-6">
+                <img src="img/chopper.jpg" class="img-thumbnail" alt="...">
+            </div>
+        </div>
+      
+        <!-- Pie de pagina -->
+        <div class="row bg-dark p-3">
+            <h3 class="text-white">Soy el pie de pagina</h3>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam rem qui in maiores, a est magni et, deleniti corrupti unde molestias ad numquam perferendis aliquid, ab consectetur libero impedit?</p>
+        </div> 
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  </body>
+</html>
